@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+* {
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-decoration: none;
+font-family: 'Raleway', sans-serif;
+font-weight: 300;
+}
+
+body,html{
+	height: 100%;
+	width: 100%;
+	background-color:#304660;
+}
+h1{
+	font-weight: 100;
+	color:#eee;
+	font-size:38px;
+}
+b{
+	font-weight: 800;
+}
+a{
+	color:#eee;
+}
+nav{
+	width:100%;
+	color:#eee;
+	position:fixed;
+	background-color:#222222;
+	height:60px;
+}
+nav .logo{
+	width:50px;
+	heihgt:50px;
+}
+nav .icon-spaceit_logo{
+	font-size:42px;
+}
+nav h1{
+	font-size:24px;
+	line-height:60px;
+}
+.floatright{
+	float:right;
+}
+.floatright ul{
+	float:right;
+}
+nav ul li{
+	display:inline-block;
+	vertical-align:top;
+	padding:0 12px;
+}
+nav .user{
+	background-color:#516484;
+}
+nav .expand_toggle{
+	width:60px;
+	padding:0;
+	text-align:center;
+	background-color:#3e5372;
+}
