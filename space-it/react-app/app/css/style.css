@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /** General ********************************************************/
 * {
 margin: 0;
@@ -16,6 +16,9 @@ body,html{
 	width: 100%;
 	background-color: var(--main-color);
 	color:#222222;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
 h1{
 	color:#fff;
@@ -358,9 +361,10 @@ nav .expand_toggle{
 }
 /** Messages ********************************************************/
 .chatview{
+    
 	position:relative;
 	margin-right:340px;
-	height: calc(100% - 50px);
+	height: calc(100vh - 50px);
 	background-color:#fff;
 }
 .chatview form{

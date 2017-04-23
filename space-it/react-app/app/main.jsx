@@ -148,10 +148,7 @@ class Maincontainer extends React.Component {
           </div>
           <ul>
             <li>
-              <img src="./img/spaceit_logo.svg"  alt="spaceit"/>
-            </li>
-            <li>
-              <a className="nav_logo" href="#"><h1><i className="icon-spaceit_logo"></i>SPACE<b>IT</b></h1></a>
+              <a className="nav_logo" href="#"><h1>SPACE<b>IT</b></h1></a>
             </li>
           </ul>
         </nav>
@@ -295,6 +292,42 @@ class Maincontainer extends React.Component {
           </div>
 
         </div>
+              {/*User panel*********************************************************/}
+              <div className="chatview">
+
+                <div className="usersidepanel">
+                  <ul>
+                    <li className="head">
+                      <div className="inner">
+                        MEMBERS
+                      </div>
+                    </li>
+                    <li>
+                      <div className="inner">
+                        <div className="img_con"></div><h3>UserName_1</h3>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="inner">
+                        <div className="img_con"></div><h3>UserName_2</h3>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="inner">
+                        <div className="img_con"></div><h3>UserName_3</h3>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="inner">
+                        <div className="img_con"></div><h3>UserName_4</h3>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                <ChatBox/>
+
+              </div>
       </div>
 
     );
