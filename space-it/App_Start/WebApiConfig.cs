@@ -1,5 +1,6 @@
 ﻿using System.Net.Http.Formatting;
 using System.Web.Http;
+using Space_it.Core.Helpers;
 
 namespace Space_it.Web
 {
@@ -11,7 +12,7 @@ namespace Space_it.Web
 
             // Web API routes
             config.MapHttpAttributeRoutes();
-            //config.Services.Replace(typeof(IContentNegotiator), new JsonContentNegotiator(new JsonMediaTypeFormatter()));
+            config.Services.Replace(typeof(IContentNegotiator), new JsonContentNegotiator(new JsonMediaTypeFormatter()));
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",

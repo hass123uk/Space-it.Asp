@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Space-it.Web", "space-it\Sp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Space-it.Core", "space-it.Core\Space-it.Core.csproj", "{840509C6-6670-46D2-BEA9-2CE90006D477}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Space-it.Seed", "Space-it.Seed\Space-it.Seed.csproj", "{2764D118-6806-447A-BFDF-8D4CCCC0F413}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{840509C6-6670-46D2-BEA9-2CE90006D477}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{840509C6-6670-46D2-BEA9-2CE90006D477}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{840509C6-6670-46D2-BEA9-2CE90006D477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2764D118-6806-447A-BFDF-8D4CCCC0F413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2764D118-6806-447A-BFDF-8D4CCCC0F413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2764D118-6806-447A-BFDF-8D4CCCC0F413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2764D118-6806-447A-BFDF-8D4CCCC0F413}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

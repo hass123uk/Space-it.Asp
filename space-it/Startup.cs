@@ -9,7 +9,6 @@ namespace Space_it.Web
     {
         public void Configuration(IAppBuilder app)
         {
-            ConfigureAuth(app);
         }
     }
 }

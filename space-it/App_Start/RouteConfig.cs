@@ -9,6 +9,9 @@ namespace Space_it.Web
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            routes.MapRoute("login", "login", new { controller = "Home", action = "Auth" });
+
+
             routes.LowercaseUrls = true;
             routes.MapMvcAttributeRoutes();
 

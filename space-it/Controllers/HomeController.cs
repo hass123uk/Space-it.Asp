@@ -2,10 +2,16 @@
 
 namespace Space_it.Web.Controllers
 {
-    [Authorize]
+    
     public class HomeController : Controller
     {
+        [Authorize]
         public ActionResult Index()
+        {
+            return View();
+        }
+        
+        public ActionResult Auth()
         {
             return View();
         }
