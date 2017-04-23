@@ -1,13 +1,14 @@
 import React from 'react';
 import Sidebar from 'react-sidebar';
-require('./sidebar.css');
+require('./usersidebar.css');
 
-export default class Sidebarleft extends React.Component {
+
+export default class UserSidebar extends React.Component {
     constructor(props) {
         super(props);
 
         this.state = {
-            sidebarOpen: false
+            sidebarOpen: true
         };
 
         this.onSetSidebarOpen = this.onSetSidebarOpen.bind(this);
@@ -20,14 +21,14 @@ export default class Sidebarleft extends React.Component {
     render () {
 
     let sidebarContent =
-        <b>Sidebar content</b>;
-
+        <h1>Sidebar</h1>;
 
     return (
         <div>
             <Sidebar sidebar={sidebarContent}
                      open={this.state.sidebarOpen}
                      onSetOpen={this.onSetSidebarOpen}>
+                     <div> hello</div>
             </Sidebar>
         </div>
     );

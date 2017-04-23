@@ -26,7 +26,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <TypeScriptToolsVersion>2.0</TypeScriptToolsVersion>
+    <TypeScriptToolsVersion>2.2</TypeScriptToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -224,8 +224,18 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="react-app\app\components\sidebar.css" />
+    <Content Include="react-app\app\components\usersidebar.css" />
     <Content Include="react-app\app\css\style.css" />
     <Content Include="react-app\app\img\chatnode.svg" />
+    <Content Include="react-app\app\img\profile-01.jpg" />
+    <Content Include="react-app\app\img\profile-02.jpg" />
+    <Content Include="react-app\app\img\profile-03.jpg" />
+    <Content Include="react-app\app\img\profile-04.jpg" />
+    <Content Include="react-app\app\img\profile-05.jpg" />
+    <Content Include="react-app\app\img\profile-06.jpg" />
+    <Content Include="react-app\app\img\profile-07.jpg" />
+    <Content Include="react-app\app\img\profile-08.jpg" />
+    <Content Include="react-app\app\img\profile-09.jpg" />
     <Content Include="react-app\app\img\spaceit_logo.svg" />
     <Content Include="react-app\app\index.html" />
     <Content Include="react-app\favicon.ico" />
@@ -233,8 +243,6 @@
     <Content Include="react-app\webpack.production.config.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="react-app\app\components\sidebar.jsx" />
-    <Content Include="react-app\app\main.jsx" />
     <Content Include="react-app\CHANGELOG.md" />
     <Content Include="react-app\package.json" />
     <Content Include="react-app\README.md" />
@@ -257,6 +265,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="react-app\app\js\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -265,6 +274,12 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Views\Home\Auth.cshtml" />
+    <Content Include="react-app\app\chatview.jsx" />
+    <Content Include="react-app\app\components\chat.jsx" />
+    <Content Include="react-app\app\components\sidebar.jsx" />
+    <Content Include="react-app\app\components\tabs.jsx" />
+    <Content Include="react-app\app\components\usersidebar.jsx" />
+    <Content Include="react-app\app\main.jsx" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
